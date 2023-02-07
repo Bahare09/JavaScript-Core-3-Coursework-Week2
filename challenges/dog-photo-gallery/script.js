@@ -1,6 +1,6 @@
 const clickButton = document.getElementById("clickBtn");
 clickButton.addEventListener("click", () => {
-  return fetch("https://dog.ceo/api/breeds/image/random")
+  fetch("https://dog.ceo/api/breeds/image/random")
     .then(function (response) {
       return response.json();
     })
