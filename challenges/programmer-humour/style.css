@@ -1,9 +1,9 @@
-body{
-    background-color: aqua;
+body {
+  background-color: aqua;
 }
-img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% ,-50%);
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
